@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+}
+.top {
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+
+}
+
+ul {
+    text-decoration: none;
+    display: flex;
+}
