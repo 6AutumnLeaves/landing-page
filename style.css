@@ -66,6 +66,19 @@ body {
     margin-top: 16px;
 }
 
+.information {
+    display: flex;
+    justify-content: center;
+    margin: 128px;
+    gap:24px;
+    flex-wrap: no-wrap;
+}
+
+.box {
+    gap: 16px;
+    flex: 1 1 auto;
+}
+
 button {
     background-color: #3882F6;
     color: white;
@@ -92,4 +105,7 @@ ul {
 
 img {
     flex:1;
+    max-width: 300px;
+    max-height: 200px;
+
 }
