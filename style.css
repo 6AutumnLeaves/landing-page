@@ -71,6 +71,7 @@ body {
     flex-direction: column;
     gap: 24px;
     flex:1;
+    max-width: 700px;
 }
 
 .left h2 {
@@ -107,21 +108,23 @@ body {
     background-color: #e5e7eb;
     margin: 0;
     padding: 128px;
-    justify-content: center;
+    justify-content: space-between;
     gap: 48px;
+    width: 100%;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+    align-self: center;
 }
 
 .quote-person {
     font-weight: bold;
-    align-items: flex-end;
     font-size: 24px;
     align-self: flex-end;
+    margin-right: 48px;
 }
 
 .call-to-action {
