@@ -21,6 +21,24 @@ body {
      margin-top: 24px;
  }
 
+ .logo {
+    font-weight: bold;
+ }
+
+ h2 {
+     font-size: 48px;
+ }
+
+ h3 {
+     font-size: 36px;
+ }
+
+ .wrap {
+     flex-wrap: wrap;
+     max wdith
+ }
+
+
  .left-top, .right-top {
      display: flex;
 
@@ -90,7 +108,7 @@ body {
     margin: 0;
     padding: 128px;
     justify-content: center;
-    gap: 8px;
+    gap: 48px;
 }
 
 .quote {
@@ -102,6 +120,8 @@ body {
 .quote-person {
     font-weight: bold;
     align-items: flex-end;
+    font-size: 24px;
+    align-self: flex-end;
 }
 
 .call-to-action {
@@ -128,9 +148,6 @@ body {
     font-weight: bold;
 }
 
-#action {
-    font-weight: bold;
-}
 
 
 .text.action {
