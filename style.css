@@ -10,6 +10,7 @@ body {
     display: flex;
     background-color: #1f2937;
     flex-direction: column;
+    flex: 1;
 
 }
  .header {
@@ -77,6 +78,64 @@ body {
 .box {
     gap: 16px;
     flex: 1 1 auto;
+}
+
+
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 128px;
+    justify-content: center;
+    gap: 8px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-person {
+    font-weight: bold;
+    align-items: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    margin: 128px;
+}
+
+.banner {
+    display: flex;
+    background-color: #3882F6;
+    padding: 16px 128px;
+    border-radius: 6px;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.text.head {
+    color: white;
+    flex: 1 0 auto;
+    
+}
+
+.text.action {
+    color: white;
+    flex: 1 0 auto;
+}
+
+.left-banner {
+
+}
+
+.right-banner
+
+.banner.action {
+    border: white;
 }
 
 button {
