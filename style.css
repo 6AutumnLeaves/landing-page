@@ -115,17 +115,23 @@ body {
     padding: 16px 128px;
     border-radius: 6px;
     flex: 1 1 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
+    gap: 64px;
 
 }
 
 .text.head {
     color: white;
     flex: 1 0 auto;
-    
+    font-weight: bold;
 }
+
+#action {
+    font-weight: bold;
+}
+
 
 .text.action {
     color: white;
@@ -163,7 +169,8 @@ body {
 }
 
 button {
-    background-color: #3882F6;
+    /* background-color: #3882F6; */
+    background-color: red;
     color: white;
     border-radius: 4px;
     border: none;
@@ -171,8 +178,12 @@ button {
 }
 
 .right-banner button {
-    border: 2px solid white;
-    padding: 16px, 64px;
+    border: 1px solid white;
+    background-color: #3882F6;
+}
+
+.button2 {
+    padding: 4px 32px;
 }
 
 a {
