@@ -35,12 +35,11 @@ body {
 
  .wrap {
      flex-wrap: wrap;
-     max wdith
  }
 
 
  .left-top, .right-top {
-     display: flex;
+     display:flex;
 
 
  }
@@ -73,6 +72,7 @@ body {
     flex:1;
     max-width: 700px;
 }
+
 
 .left h2 {
     margin:0
@@ -224,7 +224,11 @@ ul {
 
 img {
     flex:1;
-    max-width: 300px;
+    max-width: 400px;
     max-height: 200px;
+    justify-self: flex-end;
 
 }
+
+
+
